@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    border-radius: 20px;
+    background-color: rgb(154, 154, 42);
+    border: 3.2px solid black;
+    margin: 0.5rem;
+}
+
+
+.red{
+    background-color: #d95980;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: yellow;
+}
+
+.userflash{
+    background-color: rgb(0, 255, 0);
+}
